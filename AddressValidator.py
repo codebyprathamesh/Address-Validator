@@ -4,10 +4,12 @@ def email(address):
   while True:
     if (dot==-1):
       print("Invalid Email Address")
+      break
     elif (at==-1):
       print("Invalid Email Address")
+      break
     else:
       print("This is a valid email address")
       break
-email("prathameshmore792gmail.com")
+email("prathameshmore792@gmailcom")
 
